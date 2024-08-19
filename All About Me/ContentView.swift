@@ -9,24 +9,32 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-                Rectangle()
-                    .frame(width: .infinity,height: .infinity)
-                    .foregroundColor(.cyan)
-                    .ignoresSafeArea()
-                    .overlay{
-                        Text("All About Me")
-                            .foregroundColor(.white)
-                            .bold()
-                    }
-                    
-
-                
+        ZStack {
+            Rectangle()
+                .frame(width: .infinity,height: .infinity)
+                .foregroundColor(.cyan)
+                .ignoresSafeArea()
+            VStack {
+                Text("All About Me")
+                    .font(.largeTitle)
+                    .fontWeight(.heavy)
+                    .foregroundColor(.white)
+                    .bold()
+                    .dynamicTypeSize(.xxxLarge)
+                Spacer()
+            }
         }
-
-
+            
+            
+            
+            
+            
+            
+        
+        
+        
     }
-
+    
 }
 
 #Preview {
