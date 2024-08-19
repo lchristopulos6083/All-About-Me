@@ -10,13 +10,23 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+                Rectangle()
+                    .frame(width: .infinity,height: .infinity)
+                    .foregroundColor(.cyan)
+                    .ignoresSafeArea()
+                    .overlay{
+                        Text("All About Me")
+                            .foregroundColor(.white)
+                            .bold()
+                    }
+                    
+
+                
         }
-        .padding()
+
+
     }
+
 }
 
 #Preview {
