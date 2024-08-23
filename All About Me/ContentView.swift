@@ -15,7 +15,7 @@ struct ContentView: View {
                 .foregroundColor(.cyan)
                 .ignoresSafeArea()
             VStack {
-                Text("All About Me")
+                Text("Pineapple")
                     .font(.largeTitle)
                     .fontWeight(.heavy)
                     .foregroundColor(.white)
