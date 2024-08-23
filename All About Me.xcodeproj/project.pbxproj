@@ -11,6 +11,8 @@
 		0D3406292C6E484A0044B731 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3406282C6E484A0044B731 /* ContentView.swift */; };
 		0D34062B2C6E484B0044B731 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D34062A2C6E484B0044B731 /* Assets.xcassets */; };
 		0D34062E2C6E484B0044B731 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D34062D2C6E484B0044B731 /* Preview Assets.xcassets */; };
+		894A04032C78D2EC0009C045 /* LukeFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894A04022C78D2EC0009C045 /* LukeFile.swift */; };
+		894FA0972C78CAD800D10CEF /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894FA0962C78CAD800D10CEF /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		0D3406282C6E484A0044B731 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0D34062A2C6E484B0044B731 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D34062D2C6E484B0044B731 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		894A04022C78D2EC0009C045 /* LukeFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LukeFile.swift; sourceTree = "<group>"; };
+		894FA0962C78CAD800D10CEF /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +55,10 @@
 		0D3406252C6E484A0044B731 /* All About Me */ = {
 			isa = PBXGroup;
 			children = (
+				894FA0962C78CAD800D10CEF /* File.swift */,
 				0D3406262C6E484A0044B731 /* All_About_MeApp.swift */,
 				0D3406282C6E484A0044B731 /* ContentView.swift */,
+				894A04022C78D2EC0009C045 /* LukeFile.swift */,
 				0D34062A2C6E484B0044B731 /* Assets.xcassets */,
 				0D34062C2C6E484B0044B731 /* Preview Content */,
 			);
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D3406292C6E484A0044B731 /* ContentView.swift in Sources */,
+				894FA0972C78CAD800D10CEF /* File.swift in Sources */,
+				894A04032C78D2EC0009C045 /* LukeFile.swift in Sources */,
 				0D3406272C6E484A0044B731 /* All_About_MeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
