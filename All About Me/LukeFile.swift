@@ -16,13 +16,30 @@ struct LukeView: View {
                 .foregroundColor(.cyan)
                 .ignoresSafeArea()
             VStack {
-                Text("Luke")
+                Text("Luke All About Me")
                     .font(.largeTitle)
                     .fontWeight(.heavy)
                     .foregroundColor(.white)
                     .bold()
                     .dynamicTypeSize(.xxxLarge)
-                Spacer()
+                    .padding()
+                Text("Junior at PHS")
+                    .padding()
+                    .foregroundColor(.white)
+                    .bold()
+                Text("Basketball")
+                    .padding()
+                    .foregroundColor(.white)
+                    .bold()
+                
+                Text("Two Truths and a Lie")
+                    .foregroundStyle(.white)
+                    .fontWeight(.heavy)
+                    .dynamicTypeSize(/*@START_MENU_TOKEN@*/.xLarge/*@END_MENU_TOKEN@*/)
+                    .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+                    .padding()
+                    .padding()
+                
             }
         }
             

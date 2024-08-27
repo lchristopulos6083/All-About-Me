@@ -15,7 +15,7 @@ NavigationView {
                    .font(.largeTitle)
                    .padding()
 
-               NavigationLink(destination: DetailView()) {
+               NavigationLink(destination: LukeView()) {
                    Text("Go to Luke view")
                        .foregroundColor(.white)
                        .padding()
